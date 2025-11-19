@@ -4,9 +4,9 @@ import mongoose from "mongoose";
 const app = express();
 app.use(express.json());
 
-// Connect MongoDB
+ 
 mongoose.connect("mongodb://127.0.0.1:27017/studentcourse");
-// Schema & Model
+ 
 const studentSchema = new mongoose.Schema({
   name: String,
   course: String,
@@ -95,6 +95,6 @@ app.delete("/students/course/:course", async (req, res) => {
   res.send("All Students in Course Deleted ❌");
 });
 
-/* --------------------------------------------------- */
+
 
 app.listen(3002, () => console.log("Server running on PORT 3002")); 

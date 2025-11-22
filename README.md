@@ -9,6 +9,7 @@ This repository contains two complete REST APIs:
 Both are fully CRUD-enabled, clean, beginner-friendly, and perfect for portfolio projects.
 
 📁 Folder Structure
+├──README.md
 ├── app.js
 ├── server.js
 └── student-server.js

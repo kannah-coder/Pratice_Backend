@@ -9,6 +9,7 @@ This repository contains two complete REST APIs:
 Both are fully CRUD-enabled, clean, beginner-friendly, and perfect for portfolio projects.
 
 📁 Folder Structure
+├── Movies.js
 ├──README.md
 ├── app.js
 ├── librarySchema.js
@@ -47,9 +48,7 @@ node productServer.js   # Runs on PORT 3000
 🎓 STUDENT MANAGEMENT SYSTEM API (PORT 3002)
 
 A complete backend system to manage students using MongoDB.
-
-📌 Base URL
-http://localhost:3002
+ 
 
 🌱 Seed Route
 Insert Sample Students
@@ -129,3 +128,13 @@ DELETE /cart/:id
 
 Clear Cart
 DELETE /cart
+
+## 🎯 How to run this
+
+ Install required packages:
+
+ npm init -y
+ npm install express mongoose
+
+
+ 
